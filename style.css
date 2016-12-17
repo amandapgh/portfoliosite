@@ -1,0 +1,196 @@
+body {
+  background-image:url("dandelions.png");
+  background-size:100%;
+  background-attachment: fixed;
+  margin:0px;
+  text-align: center;
+  transition: ease .5s;
+}
+#wrap {
+  margin-top: 25px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 20px;
+  width:50%;
+  background-color: #fff;
+  background-color: rgba(255,255,249,.8);
+  border-radius: 20px;
+}
+header {
+  text-align: center;
+}
+#navbar a {
+  color: #6E6E6E;
+  transition: ease .5s;
+  font-family: 'Open Sans Condensed', monospace;
+  font-size: 30px;
+  padding:30px;
+}
+a {
+  color: #6E6E6E;
+  font-family: 'Open Sans Condensed', monospace;
+  font-size: 30px;
+  text-decoration: none;
+}
+#navbar a:hover, a:hover {
+  color: #a2a2a2;
+  transition: ease .5s;
+  text-decoration: none;
+}
+p, h3 {
+  font-family: 'Open Sans Condensed', monospace;
+}
+p {
+  font-size: 18px;
+}
+h1, h2 {
+  color:#496363;
+}
+h1 {
+  font-size: 70px;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-size: 40px;
+  font-family: 'Sacramento', monospace;
+  margin-top:0px
+}
+#portfolio {
+  width:80%;
+  margin:auto;
+  margin-top: 20px;
+  text-align: center;
+  display: none;
+  transition: ease .5s;
+}
+.project {
+  margin-top:20px;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  height:200px;
+  width:30%;
+  display:inline-block;
+  border-radius: 20px;
+  opacity:.9;
+  overflow:scroll;
+}
+.layer {
+  transition: ease .6s;
+  background-color: rgba(165, 191, 190,1);
+  width:100%;
+  height:200px;
+  border-radius: 20px;
+  position: relative;
+  padding:10px;
+  box-sizing: border-box;
+  overflow:scroll;
+}
+.layer:hover {
+  opacity: .0;
+  transition: ease .6s;
+}
+#one {
+  background-image:url("nalogin.png");
+  background-size: cover;
+}
+#two {
+  background-image:url("MillvaleLibrary.png");
+  background-size: cover;
+}
+#three {
+  background-image:url("MorningPages.png");
+  background-position: center;
+  background-size: cover;
+}
+#four {
+  background-image:url("gameoflife.png");
+  background-position: center;
+  background-size: cover;
+}
+#five {
+  background-image:url("personalityquiz.png");
+  background-position: left;
+  background-size:140%;
+}
+#six {
+  background-image:url("Autofill.png");
+  background-size: cover;
+}
+#seven {
+  background-image:url("calculator.png");
+  background-size: cover;
+}
+#eight {
+  background-image:url("emeraldview.png");
+  background-position: center;
+  background-size: cover;
+}
+#nine {
+    background-image:url("programs.png");
+    background-position: top left;
+    background-size: cover;
+  }
+#resume {
+  margin-right:auto;
+  margin-left:auto;
+  text-align: center;
+  display:none;
+  transition: ease .5s;
+}
+#resume h2 {
+  margin-top: 20px;
+}
+#resume img {
+  border-radius: 10px;
+}
+#about {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  text-align: center;
+  width:30%;
+  display:inline-block;
+  border-radius: 20px;
+  opacity:.9;
+  background-color: rgba(165, 191, 190,1);
+  width:50%;
+  display:none;
+  transition: ease .5s;
+}
+#contact {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  text-align: center;
+  width:30%;
+  display:inline-block;
+  border-radius: 20px;
+  opacity:.9;
+  background-color: rgba(165, 191, 190,1);
+  width:50%;
+  display: none;
+  transition: ease .5s;
+}
+#contact a {
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', monospace;
+}
+form {
+  font-family: 'Open Sans Condensed', monospace;
+}
+input {
+  width: 300px;
+}
+#contact input .field {
+  height: 50px;
+  width:200px;
+}
+form .area {
+  height: 70px;
+}
+footer {
+  text-align: center;
+}

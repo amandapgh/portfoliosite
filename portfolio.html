@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=PT+Mono|Sacramento" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+<script>
+
+function Portfolio()
+{
+  $("#resume").hide();
+  $("#about").hide();
+  $("#contact").hide();
+  $("#portfolio").fadeIn();
+};
+function Resume()
+{
+  $("#portfolio").hide();
+  $("#about").hide();
+  $("#contact").hide();
+  $("#resume").fadeIn();
+};
+function About()
+{
+  $("#portfolio").hide();
+  $("#resume").hide();
+  $("#contact").hide();
+  $("#about").fadeIn();
+};
+function Contact()
+{
+  $("#portfolio").hide();
+  $("#about").hide();
+  $("#resume").hide();
+  $("#contact").fadeIn();
+};
+
+</script>
+
+</head>
+
+<body>
+  <body onload="Portfolio();">
+
+  <div id="wrap">
+    <header>
+      <h1>Amanda L. Wilson</h1>
+      <h2>Full-Stack Web Developer</h2>
+      <div id="navbar">
+          <a href="javascript:void(0)" OnClick="Portfolio();">Portfolio</a>
+          <a href="javascript:void(0)" OnClick="Resume();">Resume</a>
+          <a href="javascript:void(0)" OnClick="About();">About</a>
+          <a href="javascript:void(0)" OnClick="Contact();">Contact</a>
+      </div>
+    </header>
+  </div>
+
+    <div id="portfolio">
+      <h2>Portfolio</h2>
+
+      <a href="https://github.com/AcademyPgh/Y1S2-NeighborhoodAllies">
+      <div class="project" id="one">
+        <div class="layer">
+          <h3>Neighborhood Allies Impact Map</h3>
+          <p>C#, MVC, SQL</p>
+          <p>An application that will track the outcomes of grants to nonprofits throughout Pittsburgh</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="http://millvalelibrary.org">
+      <div class="project" id="two">
+        <div class="layer">
+          <h3>Millvale Community Library Website</h3>
+          <p>HTML, CSS, PHP, Javascript, Wordpress</p>
+          <p>A fully-custom website for the Millvale Community Library, built from scratch.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://morningpages17.herokuapp.com">
+      <div class="project" id="three">
+        <div class="layer">
+          <h3>MorningPages</h3>
+          <p>Ruby on Rails</p>
+          <p>A beautiful and simple blogging app.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://amandapgh.github.io/petridish/gameoflife.html">
+      <div class="project" id="four">
+        <div class="layer">
+          <h3>Petri Dish</h3>
+          <p>jQuery</p>
+          <p>An adorable version of Conway's Game of Life.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://github.com/amandapgh/PersonalityQuiz">
+      <div class="project" id="five">
+        <div class="layer">
+          <h3>Personality Quiz App</h3>
+          <p>C#, SQL</p>
+          <p>A C# console application that allows the user to take personality quizzes and receive results.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://github.com/amandapgh/AutofillApp">
+      <div class="project" id="six">
+        <div class="layer">
+          <h3>Word Autofill App</h3>
+          <p>Ruby</p>
+          <p>A console application that can autofill a word based on a word fragment.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://amandapgh.github.io/Calculator/">
+      <div class="project" id="seven">
+        <div class="layer">
+          <h3>Calculator</h3>
+          <p>Javascript</p>
+          <p>A simple calculator app.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="emeraldview2.png">
+      <div class="project" id="eight">
+        <div class="layer">
+          <h3>Common Plants of Emerald View Park</h3>
+          <p>Canva</p>
+          <p>A brochure created for the Pittsburgh Parks Conservancy.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="programs.png">
+      <div class="project" id="nine">
+        <div class="layer">
+          <h3>Millvale Library Programs</h3>
+          <p>Canva</p>
+          <p>A flyer created for the Millvale Community Library.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div id="resume">
+    <h2>Resume</h2>
+    <img src="resume.png"/>
+  </div>
+
+  <div id="about">
+    <h2>About Me</h2>
+    <img src="amanda.jpg" style="border-radius:50%; width:25%;">
+    <h3>C# + MVC + Ruby + Rails + SQL + Javascript + jQuery + HTML + CSS</h3>
+    <p>
+      Amanda is a full-stack web-developer with a passion for solving
+      complex problems and making the end result accessible and aesthetically
+      pleasing for users. She has a deep love for the social sciences, and
+      is always interested in ways to combine her coding skills with assessing or
+      meeting community or social needs. She is a crazy dog lady and loves
+      snuggling with her two rescue doggos, laughing at memes, dancing around
+      the kitchen, writing music, camping, and traveling.
+    </p>
+  </div>
+
+  <div id="contact">
+    <h2>Contact Me!</h2>
+    <img src="linkedin.png" height="20px" /> <br>
+    <a href="https://www.linkedin.com/in/amandapgh">LinkedIn</a><br /><br>
+    <img src="github.png" height="20px" /> <br>
+    <a href="https://github.com/amandapgh">GitHub</a><br />
+    <h3>amandalee.pgh@gmail.com</h3>
+    <h3>Located in Pittsburgh, PA</h3>
+
+  </div>
+
+<footer>
+  <h3>Amanda Wilson<br>
+    amandalee.pgh@gmail.com</h3>
+  <a href="https://www.linkedin.com/in/amandapgh"><img src="linkedin.png" height="50px" /></a>
+  <a href="https://github.com/amandapgh"><img src="github.png" height="50px" /></a>
+</footer>
+
+</body>
