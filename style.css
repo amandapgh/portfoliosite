@@ -73,7 +73,7 @@ h2 {
   display:inline-block;
   border-radius: 20px;
   opacity:.9;
-  overflow:scroll;
+  overflow:hidden;
 }
 .layer {
   transition: ease .6s;
@@ -84,7 +84,7 @@ h2 {
   position: relative;
   padding:10px;
   box-sizing: border-box;
-  overflow:scroll;
+  overflow:hidden;
 }
 .layer:hover {
   opacity: .0;
@@ -193,4 +193,9 @@ form .area {
 }
 footer {
   text-align: center;
+}
+@media only screen and (max-width: 800px) {
+body {
+   font-size:.8em; 
+ }
 }
