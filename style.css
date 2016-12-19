@@ -203,6 +203,9 @@ form .area {
 footer {
   text-align: center;
 }
+footer h3 {
+  font-size:1.5em;
+}
 @media only screen and (max-width: 1200px) {
   h1 {
      font-size:3em;
