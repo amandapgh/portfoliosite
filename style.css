@@ -40,13 +40,16 @@ a {
 .break {
     display:inline-block;
 }
-h3 {
+.project h3 {
   font-size: .7em;
+}
+p {
+  font-size: 1.2em;
 }
 p, h3 {
   font-family: 'Open Sans Condensed', monospace;
 }
-p {
+.project p {
   font-size: .6em;
 }
 h1, h2 {
@@ -241,5 +244,28 @@ footer h3 {
   }
   .project p {
     font-size:.5em;
+  }
+  #portfolio {
+    width: 95%;
+  }
+  #about {
+    width:95%;
+  }
+  #contact {
+    width:95%;
+  }
+  #resume {
+    width:95%;
+  }
+  #resume img {
+    width: 100%;
+    height:auto;
+  }
+  .project {
+    width:50%;
+    height: auto;
+  }
+  .layer {
+    width:100%;
   }
 }
