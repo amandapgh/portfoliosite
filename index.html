@@ -1,210 +1,321 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Amanda Wilson - Web Developer in Pittsburgh, PA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="amanda, wilson, web developer, pittsburgh, pennsylvania, html, css, ruby, javascript" />
 
-<head>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	
 
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-<link href="https://fonts.googleapis.com/css?family=PT+Mono|Sacramento" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono|Sacramento" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
-<title>Amanda Wilson - Full Stack Web Developer</title>
 
-<script>
+	</head>
+	<body>
+	
+	<div id="fh5co-header" style="background-image: url(images/pittsburgh.JPG);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+			<div class="bio-text">
+				<h1>Amanda Wilson</h1>
+				<h2>Full Stack Web Developer in Pittsburgh, PA</h2>
+				<img src="images/amanda.jpg" height="200px" alt="Amanda Wilson"></a>
+			</div>
+      	</div>
+	</div>
 
-function Portfolio()
-{
-  $("#footer").hide();
-  $("#resume").hide();
-  $("#about").hide();
-  $("#contact").hide();
-  $("#portfolio").fadeIn();
-  $("#footer").fadeIn();
-};
-function Resume()
-{
-  $("#portfolio").hide();
-  $("#about").hide();
-  $("#contact").hide();
-  $("#resume").fadeIn();
-};
-function About()
-{
-  $("#portfolio").hide();
-  $("#resume").hide();
-  $("#contact").hide();
-  $("#about").fadeIn();
-};
-function Contact()
-{
-  $("#portfolio").hide();
-  $("#about").hide();
-  $("#resume").hide();
-  $("#contact").fadeIn();
-};
+	<div id="fh5co-main">
 
-</script>
-
-</head>
-
-<body>
-  <body onload="Portfolio();">
-
-  <div id="wrap">
-    <header>
-      <h1>Amanda L. Wilson</h1>
-      <h2>Full-Stack Web Developer</h2>
-      <div id="navbar">
-          <div class="break">
-          <a href="javascript:void(0)" OnClick="Portfolio();">Portfolio</a>
-          <a href="javascript:void(0)" OnClick="Resume();">Resume</a>
-          </div>
-          <div class="break">
-          <a href="javascript:void(0)" OnClick="About();">About</a>
-          <a href="javascript:void(0)" OnClick="Contact();">Contact</a>
-          </div>
-      </div>
-    </header>
-  </div>
-
-    <div id="portfolio">
-      <h2>Portfolio</h2>
-
-      <a href="https://github.com/AcademyPgh/Y1S2-NeighborhoodAllies">
-      <div class="project" id="one">
-        <div class="layer">
-          <h3>Neighborhood Allies Impact Map</h3>
-          <p>C#, MVC, SQL</p>
-          <p>An application that will track the outcomes of grants to nonprofits throughout Pittsburgh</p>
+	<div id="about">
+		<div id="navbar">
+			<a href="https://www.linkedin.com/in/amandapgh"><img src="images/linkedin.png"></a>
+			<a href="https://github.com/amandapgh"><img src="images/github.png"></a>
+			<a href="https://twitter.com/viva_manda"><img src="images/twitter.png"></a>
+			<br>
+			<div id="navbar-links">	
+	          <a href="#about">ABOUT</a> //
+	          <a href="#projects">PROJECTS</a> //
+	          <a href="#samples">SAMPLES</a> //
+	          <a href="#contact">CONTACT</a> //
+	          <a href="images/resume.png">RESUME</a>
+	        </div>
         </div>
-      </div>
-    </a>
+		<div class="fh5co-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<h2>About Me</h2>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-12">
+							<div class="row">
+								<div class="col-md-12">
+								<p>
+									Hi, I'm Amanda. I'm a full-stack web-developer with an eye for design and passion for solving complex problems and making the end result accessible and aesthetically pleasing for users. I'm a graduate of Academy PGH Coding Bootcamp and I'm enthusiastic about learning new technologies and increasing my depth of knowledge in the tech I'm already familiar with. I have a deep love for the social sciences and I'm always interested in ways to use my coding skills to assess or meet community or social needs. In my free time, I love snuggling with my two rescue dogs, laughing at memes, dancing around the kitchen, writing music, camping, and traveling.
+								</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <a href="http://millvalelibrary.org">
-      <div class="project" id="two">
-        <div class="layer">
-          <h3>Millvale Community Library Website</h3>
-          <p>HTML, CSS, PHP, Javascript, Wordpress</p>
-          <p>A fully-custom website for the Millvale Community Library, built from scratch.</p>
-        </div>
-      </div>
-    </a>
+		<!-- END .fh5co-section -->
 
-    <a href="https://morningpages17.herokuapp.com">
-      <div class="project" id="three">
-        <div class="layer">
-          <h3>MorningPages</h3>
-          <p>Ruby on Rails</p>
-          <p>A beautiful and simple blogging app.</p>
-        </div>
-      </div>
-    </a>
+	<div id="projects" class="parallax-window" data-parallax="scroll" data-image-src="images/drama.JPG">
+		<div class="fh5co-section fh5co-works">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h2>Projects</h2>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								<a href="https://github.com/AcademyPgh/Y1S2-NeighborhoodAllies" title="Neighborhood Allies Impact Map"><img src="images/NAlogin.png" alt="Neighborhood Allies Impact Map" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Neighborhood Allies Impact Map</h3>
+									<h3>C# + ASP.NET MVC + SQL</h3>
+									<p>An application and interactive map that will allow Neighborhood Allies to track the impact and outcomes of grants throughout the city of Pittsburgh.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								<a href="http://millvalelibrary.org" title="Millvale Community Library"><img src="images/MillvaleLibrary.png" alt="Millvale Community Library" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Millvale Community Library Website</h3>
+									<h3>HTML5 + CSS3 + Javascript + PHP</h3>
+									<p>Website for the community library of Millvale, built from scratch using Wordpress and featuring custom graphics including header & footer.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <a href="https://amandapgh.github.io/petridish/gameoflife.html">
-      <div class="project" id="four">
-        <div class="layer">
-          <h3>Petri Dish</h3>
-          <p>jQuery</p>
-          <p>An adorable version of Conway's Game of Life.</p>
-        </div>
-      </div>
-    </a>
+	<div id="samples">
+		<div class="fh5co-section fh5co-works" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h2>Code & Graphic Design Samples</h2>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <a href="https://github.com/amandapgh/PersonalityQuiz">
-      <div class="project" id="five">
-        <div class="layer">
-          <h3>Personality Quiz App</h3>
-          <p>C#, SQL</p>
-          <p>A C# console application that allows the user to take personality quizzes and receive results.</p>
-        </div>
-      </div>
-    </a>
 
-    <a href="https://github.com/amandapgh/AutofillApp">
-      <div class="project" id="six">
-        <div class="layer">
-          <h3>Word Autofill App</h3>
-          <p>Ruby</p>
-          <p>A console application that can autofill a word based on a word fragment.</p>
-        </div>
-      </div>
-    </a>
+	<div class="fh5co-section fh5co-works">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h3>Ruby & Rails</h3>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="https://morningpages17.herokuapp.com" title="Morning Pages"><img src="images/MorningPages.png" alt="Morning Pages" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Morning Pages</h3>
+									<p>A beautiful and simple blogging app.</p>
+								</div>
 
-    <a href="https://amandapgh.github.io/Calculator/">
-      <div class="project" id="seven">
-        <div class="layer">
-          <h3>Calculator</h3>
-          <p>Javascript</p>
-          <p>A simple calculator app.</p>
-        </div>
-      </div>
-    </a>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="https://github.com/amandapgh/AutofillApp" title="Autofill"><img src="images/Autofill.png" alt="Autofill App" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Autofill App</h3>
+									<p>A console application that can autofill a word based on a word fragment.</p>
+								</div>
 
-    <a href="emeraldview2.png">
-      <div class="project" id="eight">
-        <div class="layer">
-          <h3>Common Plants of Emerald View Park</h3>
-          <p>Canva</p>
-          <p>A brochure created for the Pittsburgh Parks Conservancy.</p>
-        </div>
-      </div>
-    </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END .fh5co-section -->
 
-    <a href="programs.png">
-      <div class="project" id="nine">
-        <div class="layer">
-          <h3>Millvale Library Programs</h3>
-          <p>Canva</p>
-          <p>A flyer created for the Millvale Community Library.</p>
-        </div>
-      </div>
-    </a>
-  </div>
+			<div class="fh5co-section fh5co-works">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h3>C# & ASP.NET MVC</h3>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="https://github.com/amandapgh/PersonalityQuiz" title="Personality Quiz"><img src="images/personalityquiz.png" alt="Personality Quiz" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Personality Quiz</h3>
+									<p>A C# console application that allows the user to take personality quizzes and receive results.</p>
+								</div>
 
-  <div id="resume">
-    <h2>Resume</h2>
-    <img src="resume.png"/>
-  </div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="https://github.com/amandapgh/Cash-Register" title="Cash Register"><img src="images/cashregister.png" alt="Cash Register" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Cash Register</h3>
+									<p>A C# console app that takes in a purchase amount and amount paid and returns change due in bills and coins.
+									</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END .fh5co-section -->
 
-  <div id="about">
-    <h2>About Me</h2>
-    <img src="amanda.jpg" style="border-radius:50%; width:25%;">
-    <h3>C# + MVC + Ruby + Rails + SQL + Javascript + jQuery + HTML + CSS</h3>
-    <p style="text-align:left;">
-      Amanda is a full-stack web-developer with a passion for solving
-      complex problems and making the end result accessible and aesthetically
-      pleasing for users. She feels a great deal of ownership over her projects,
-      and will work obsessively to ensure they meet her high standards.
-      Amanda has a deep love for the social sciences and
-      is always interested in ways to combine her coding skills with assessing or
-      meeting community or social needs. She is a self-described crazy dog lady and loves
-      snuggling with her two rescue dogs, laughing at memes, dancing around
-      the kitchen, writing music, camping, and traveling.
-    </p>
-  </div>
 
-  <div id="contact">
-    <h2>Contact Me!</h2>
-    <img src="linkedin.png" height="20px" /> <br>
-    <a href="https://www.linkedin.com/in/amandapgh">LinkedIn</a><br /><br>
-    <img src="github.png" height="20px" /> <br>
-    <a href="https://github.com/amandapgh">GitHub</a><br />
-    <h3>amandalee.pgh@gmail.com</h3>
-    <h3>Located in Pittsburgh, PA</h3>
+			<div class="fh5co-section fh5co-works">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h3>Javascript & jQuery</h3>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="https://amandapgh.github.io/petridish/gameoflife.html" title="Petri Dish"><img src="images/gameoflife.png" alt="Petri Dish" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Petri Dish</h3>
+									<p>An adorable version of Conway's Game of Life.</p>
+								</div>
 
-  </div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="https://amandapgh.github.io/Calculator" title="Calculator"><img src="images/calculator.png" alt="Calculator" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Calculator</h3>
+									<p>A simple Javascript calculator.</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END .fh5co-section -->
 
-<footer id="footer">
-  <h3>Amanda Wilson<br>
-    amandalee.pgh@gmail.com</h3>
-  <a href="https://www.linkedin.com/in/amandapgh"><img src="linkedin.png" height="50px" /></a>
-  <a href="https://github.com/amandapgh"><img src="github.png" height="50px" /></a>
-</footer>
+		<div class="fh5co-section fh5co-works">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<h3>Graphic Design</h3>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="images/emeraldview2big.png" title="Emerald View"><img src="images/emeraldview2.png" alt="Emerald View" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Common Plants of Emerald View Park</h3>
+									<p>A brochure created for the Pittsburgh Parks Conservancy.</p>
+								</div>
 
-</body>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								
+								<a href="images/programsbig.png" title="Library Programs"><img src="images/programs.png" alt="Library Programs" class="img-responsive"></a>
+								<div class="project-text">
+									<h3>Library Programs</h3>
+									<p>A flyer created for the Millvale Community Library.</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END .fh5co-section -->
+	</div>
+
+	<div id="contact">
+		<div class="fh5co-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<h2>Contact</h2>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-12">
+							<div class="row">
+								<div class="col-md-12" style="text-align:center;">
+								<h3>Email me at <a href="mailto:amandalee.pgh@gmail.com">amandalee.pgh@gmail.com</a></h3>
+								    
+								<a href="https://www.linkedin.com/in/amandapgh"><img src="images/linkedin.png"></a>
+								<a href="https://github.com/amandapgh"><img src="images/github.png"></a>
+								<a href="https://twitter.com/viva_manda"><img src="images/twitter.png"></a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax/parallax.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
