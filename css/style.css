@@ -128,7 +128,7 @@ h2 {
 }
 @media screen and (max-width: 550px) {
   .bio-text {
-    top:.5em;
+    top:1em;
   }
   .bio-text h1 {
   	font-size:2em;
@@ -211,8 +211,13 @@ h2 {
 #fh5co-main {
   padding-top: 5em;
 }
-#fh5co-main p{
+#fh5co-main p {
   font-size: 1.2em;
+}
+@media screen and (max-width: 550px) {
+	#fh5co-main {
+		padding-top:2em;
+	}
 }
 #fh5co-main .section-heading h2 {
   text-transform: uppercase;
