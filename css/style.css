@@ -110,19 +110,6 @@ h2 {
     font-size: 2em;
   }
 }
-
-@media screen and (max-width: 550px) {
-  .bio-text {
-    top:.25em;
-  }
-  .bio-text img {
-    height:125px;
-  }
-  #navbar-links {
-    font-size:.8em;
-  }
-
-} 
 #navbar {
   text-align:center;
   position:relative;
@@ -139,6 +126,28 @@ h2 {
   margin-top:1em;
   font-size:1.2em;
 }
+@media screen and (max-width: 550px) {
+  .bio-text {
+    top:.5em;
+  }
+  .bio-text h1 {
+  	font-size:2em;
+  }
+  .bio-text h2 {
+  	font-size: 1.5em;
+  }
+  .bio-text img {
+    height:125px;
+  }
+  #navbar-links {
+    font-size:.8em;
+  }
+  #navbar-links a {
+  	margin-right: 0.2em;
+  	margin-left: 0.2em;
+  }
+
+} 
 ::-webkit-selection {
   color: #fff;
   background: #52d3aa;
