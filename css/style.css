@@ -245,6 +245,12 @@ h2 {
 }
 
 #projects {
+  background-image:url('https://raw.githubusercontent.com/amandapgh/portfoliosite/master/images/drama.JPG');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 #projects h2, #projects h3, #projects h4, #projects p {
