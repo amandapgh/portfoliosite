@@ -300,7 +300,7 @@ img.project-image {
 }
 
 #about {
-  background-image: url("/Users/amanda/Desktop/Coding/portfoliosite/images/subtle_grunge.png");
+  background-image: url("/images/subtle_grunge.png");
 }
 #contact img {
   height:50px;
@@ -308,7 +308,7 @@ img.project-image {
 }
 
 #projects {
-  background-image:url('/Users/amanda/Desktop/Coding/portfoliosite/images/use_your_illusion.png');
+  background-image:url('/images/use_your_illusion.png');
   /*background-attachment: fixed;*/
   /*background-color:#16262E;*/
   /*height: 100%;
@@ -428,7 +428,7 @@ img.project-image {
 }
 
 #contact {
-  background-image: url("/Users/amanda/Desktop/Coding/portfoliosite/images/subtle_grunge.png");
+  background-image: url("/images/subtle_grunge.png");
 }
 
 #footer {
