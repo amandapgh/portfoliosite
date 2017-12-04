@@ -1,12 +1,12 @@
 $font-primary: 'Source Code Pro', monospace;
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
 $brand-primary: #52d3aa !default;
-$brand-secondary: #f9d623 !default; 
+$brand-secondary: #f9d623 !default;
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -52,16 +52,16 @@ $form-group-margin-bottom:       30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -76,7 +76,7 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -88,10 +88,10 @@ $form-group-margin-bottom:       30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -100,7 +100,7 @@ $form-group-margin-bottom:       30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -142,7 +142,7 @@ a {
 			bottom: 0;
 			left: 0;
 			position: absolute;
-			
+
 			height: 100%;
 			width: 100%;
 			z-index: -1;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 
 	.bio-photo {
-		
+
 		z-index: 20;
 		position: absolute;
 		// top: 50%;
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 #fh5co-main {
-	padding-top: 5em;
+	// padding-top: 5em;
 	.section-heading {
 		h2 {
 			text-transform: uppercase;
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6, figure {
 				line-height: 40px;
 				color: $brand-white;
 			}
-			
+
 		}
 		p, h3 {
 			margin-bottom: 10px;
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-// Owl 
+// Owl
 .owl-carousel .owl-controls .owl-dot {
 	span {
 		background: lighten($brand-black, 90%);

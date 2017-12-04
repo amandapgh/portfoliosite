@@ -1,9 +1,13 @@
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
+a {
+  transition: 0.2s all;
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -37,7 +41,7 @@ a:after {
   width: 100%;
   z-index: -1;
   content: "";
-  background: #e6e6e6;
+  /*background: #e6e6e6;*/
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -111,22 +115,79 @@ h2 {
   }
 }
 #navbar {
+  padding-top: 5em;
   text-align:center;
   position:relative;
 }
+
+@media screen and (max-width: 550px) {
+    #navbar {
+      padding-top: 1em;
+    }
+
+    .girl-laptop {
+      text-align: center;
+      padding-bottom: 2em !important;
+    }
+
+    .flex {
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+    }
+
+    .work {
+      flex-basis: 100% !important;
+    }
+
+    .project {
+      /*display: block !important;*/
+    }
+
+    .project-image {
+      height: 200px;
+      overflow: hidden;
+      width: 100%;
+    }
+}
+
 #navbar img {
   height:50px;
   border-radius:50%;
   margin-left:.2em;
   margin-right:.2em;
+  transition: .03s all;
 }
+
 #navbar-links a {
   margin-left:1em;
   margin-right:1em;
   margin-top:1em;
   font-size:1.2em;
 }
+.icon {
+  color: black !important;
+  padding: 0 .5em;
+}
+.icon:hover {
+  text-shadow: 2px 2px 4px #7F7F87;
+}
+
+.work {
+  height: auto;
+}
+
+img.project-image {
+  width: 100%;
+}
+
+/*.hover-shadow {
+  box-shadow: 2px 2px 4px #7F7F87;
+}*/
+
 @media screen and (max-width: 550px) {
+  h1 {
+    text-align: center;
+  }
   .bio-text {
     top:1em;
   }
@@ -147,7 +208,9 @@ h2 {
   	margin-left: 0.2em;
   }
 
-} 
+
+
+}
 ::-webkit-selection {
   color: #fff;
   background: #52d3aa;
@@ -209,14 +272,14 @@ h2 {
 }
 
 #fh5co-main {
-  padding-top: 5em;
+  /*padding-top: 5em;*/
 }
 #fh5co-main p {
   font-size: 1.2em;
 }
 @media screen and (max-width: 550px) {
 	#fh5co-main {
-		padding-top:2em;
+		/*padding-top:2em;*/
 	}
 }
 #fh5co-main .section-heading h2 {
@@ -230,14 +293,14 @@ h2 {
 }
 
 .fh5co-section {
-  padding: 5em 0;
+  padding: 2em 0;
 }
 #samples .fh5co-section {
   padding: 1em 0;
 }
 
 #about {
-  background-color: white;
+  background-image: url("/Users/amanda/Desktop/Coding/portfoliosite/images/subtle_grunge.png");
 }
 #contact img {
   height:50px;
@@ -245,41 +308,81 @@ h2 {
 }
 
 #projects {
-  background-image:url('https://raw.githubusercontent.com/amandapgh/portfoliosite/master/images/drama.JPG');
-  height: 100%; 
-  background-attachment: fixed;
+  background-image:url('/Users/amanda/Desktop/Coding/portfoliosite/images/use_your_illusion.png');
+  /*background-attachment: fixed;*/
+  /*background-color:#16262E;*/
+  /*height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:cover;*/
 }
 
-#projects h2, #projects h3, #projects h4, #projects p {
+#projects h1,
+#projects h2,
+#projects h3,
+#projects h4,
+#projects p {
   color: white;
 }
+
+/*.work a {
+  margin: 0;
+}*/
+
+.work {
+  /*height: 300px;*/
+  overflow: hidden;
+  flex-basis: 48%;
+}
+
 .work h3 {
   margin-top:10px;
-  text-align:center;
+  /*text-align:center;*/
 }
 .work h4 {
-  text-align:center;
+  /*text-align:center;*/
 }
-.work img {
-  height:220px;
-  min-width:293px;
+.project-image {
+  height: 300px;
+}
+
+.project-image img {
+  object-fit: cover;
+  height: 450px;
+  object-position: center;
+  position: relative;
 }
 
 #projects .work img {
-    filter: brightness(0.8);
+    filter: brightness(0.5);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 #projects .work img:hover {
     filter: brightness(1);
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.project {
+  margin-bottom: 5em;
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.carney-logo {
+  height: 19px;
+  filter: brightness(1);
+  margin-top: 6px;
 }
 
 #samples {
   padding-top: 4em;
   background-color:#16262E;
 }
-#samples h2, #samples h3, #samples h4, #samples p {
+#projects h2, #projects h3, #projects h4, #projects h5, #projects p {
   color:white;
 }
 
@@ -289,15 +392,25 @@ h2 {
 }
 
 .fh5co-works .work {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   float: left;
 }
 .fh5co-works .work > a {
   position: relative;
   overflow: hidden;
-  display: block;
+  display: flex;
+  justify-content: center;
   outline: none !important;
 }
+
+.justify-left {
+  justify-content: flex-start !important;
+}
+
+.justify-bottom {
+  align-items: flex-end !important;
+}
+
 .fh5co-works .work > a:after {
   display: none !important;
 }
@@ -307,11 +420,15 @@ h2 {
   transition: 0.5s;
 }
 .fh5co-works .work > a:hover img {
-  -webkit-transform: scale(1.2);
+  /*-webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.2);*/
+}
+
+#contact {
+  background-image: url("/Users/amanda/Desktop/Coding/portfoliosite/images/subtle_grunge.png");
 }
 
 #footer {
@@ -599,6 +716,14 @@ textarea.form-control {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
